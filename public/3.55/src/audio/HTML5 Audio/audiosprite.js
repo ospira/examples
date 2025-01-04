@@ -10,7 +10,7 @@ class Example extends Phaser.Scene
 
     preload ()
     {
-        this.load.setBaseURL('https://cdn.phaserfiles.com/v355');
+        this.load.setBaseURL('http://127.0.0.1:8080/v355');
         this.load.image('title', 'assets/pics/catastrophi.png');
 
         this.load.spritesheet('button', 'assets/ui/flixel-button.png', { frameWidth: 80, frameHeight: 20 });

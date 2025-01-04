@@ -2,7 +2,7 @@ class Example extends Phaser.Scene
 {
     preload ()
     {
-        this.load.setBaseURL('https://cdn.phaserfiles.com/v385');
+        this.load.setBaseURL('http://127.0.0.1:8080/v385');
         this.fonts = [ 'iceicebaby', 'atari-smooth', 'azo-fire', 'carrier_command', 'vermin', 'chiller', 'clarendon', 'desyrel-pink', 'gem', 'gothic', 'hyperdrive', 'topaz-fill' ]
 
         for (let i = 0; i < this.fonts.length; i++)

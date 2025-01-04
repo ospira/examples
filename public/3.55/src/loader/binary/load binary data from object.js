@@ -14,7 +14,7 @@ var game = new Phaser.Game(config);
 
 function preload ()
 {
-        this.load.setBaseURL('https://cdn.phaserfiles.com/v355');
+        this.load.setBaseURL('http://127.0.0.1:8080/v355');
     this.load.binary({
         key: 'mod',
         url: 'assets/audio/protracker/global_trash_3_v2.mod',

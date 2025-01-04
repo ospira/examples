@@ -15,7 +15,7 @@ var game = new Phaser.Game(config);
 
 function preload ()
 {
-        this.load.setBaseURL('https://cdn.phaserfiles.com/v355');
+        this.load.setBaseURL('http://127.0.0.1:8080/v355');
     this.load.image('spark0', 'assets/particles/blue.png');
     this.load.image('spark1', 'assets/particles/red.png');
 }

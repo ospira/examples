@@ -15,7 +15,7 @@ class Example extends Phaser.Scene
 
     preload ()
     {
-        this.load.setBaseURL('https://cdn.phaserfiles.com/v385');
+        this.load.setBaseURL('http://127.0.0.1:8080/v385');
         this.load.image('logo', 'assets/sprites/phaser.png');
 
         this.load.setPath('assets/spine/3.8/raptor').spine('raptor', 'raptor-pro.json', 'raptor-pro.atlas');

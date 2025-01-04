@@ -5,7 +5,7 @@ class Example extends Phaser.Scene
 
     preload ()
     {
-        this.load.setBaseURL('https://cdn.phaserfiles.com/v385');
+        this.load.setBaseURL('http://127.0.0.1:8080/v385');
         this.load.image('background', 'assets/tests/space/nebula.jpg');
         this.load.atlas('space', 'assets/tests/space/space.png', 'assets/tests/space/space.json');
     }

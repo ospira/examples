@@ -33,8 +33,8 @@ const modifyFile = (filePath) => {
     if (preloadPattern.test(fileContent)) {
         console.log(`Modifying file: ${filePath}`);
 
-        // Replace 'preload () {' with 'preload () {\n        this.load.setBaseURL('https://cdn.phaserfiles.com/v385');'
-        fileContent = fileContent.replace(preloadPattern, match => `${match}\n        this.load.setBaseURL('https://cdn.phaserfiles.com/v355');`);
+        // Replace 'preload () {' with 'preload () {\n        this.load.setBaseURL('http://127.0.0.1:8080/v385');'
+        fileContent = fileContent.replace(preloadPattern, match => `${match}\n        this.load.setBaseURL('http://127.0.0.1:8080/v355');`);
 
         // Write the modified content back to the file
         fs.writeFileSync(filePath, fileContent, 'utf8');

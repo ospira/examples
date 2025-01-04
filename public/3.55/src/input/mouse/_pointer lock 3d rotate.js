@@ -17,7 +17,7 @@ var cursor;
 
 function preload ()
 {
-        this.load.setBaseURL('https://cdn.phaserfiles.com/v355');
+        this.load.setBaseURL('http://127.0.0.1:8080/v355');
     // Source: https://www.youmagine.com/designs/low-poly-pikachu
     this.load.obj('pikachu', 'assets/obj/pikachu.obj');
 

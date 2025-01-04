@@ -17,7 +17,7 @@ var game = new Phaser.Game(config);
 
 function preload ()
 {
-        this.load.setBaseURL('https://cdn.phaserfiles.com/v355');
+        this.load.setBaseURL('http://127.0.0.1:8080/v355');
     this.load.path = 'assets/atlas/';
 
     this.load.atlas('sprites', 'tp3test.png', 'tp3test.json');

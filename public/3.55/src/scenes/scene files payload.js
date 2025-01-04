@@ -19,7 +19,7 @@ class Example extends Phaser.Scene
 
     preload ()
     {
-        this.load.setBaseURL('https://cdn.phaserfiles.com/v355');
+        this.load.setBaseURL('http://127.0.0.1:8080/v355');
         //  You can still preload other assets too
         this.load.image('face', 'assets/pics/bw-face.png');
     }

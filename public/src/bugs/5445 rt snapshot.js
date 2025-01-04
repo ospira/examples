@@ -2,7 +2,7 @@ class Test extends Phaser.Scene {
 
     preload ()
     {
-        this.load.setBaseURL('https://cdn.phaserfiles.com/v385');
+        this.load.setBaseURL('http://127.0.0.1:8080/v385');
         this.load.image('image0', 'assets/pics/ra-einstein.png');
         this.load.image('image1', 'assets/sprites/mushroom2.png');
     }

@@ -29,7 +29,7 @@ var game = new Phaser.Game(config);
 
 function preload ()
 {
-        this.load.setBaseURL('https://cdn.phaserfiles.com/v355');
+        this.load.setBaseURL('http://127.0.0.1:8080/v355');
     // Load in images and sprites
     this.load.spritesheet('player_handgun', 'assets/sprites/player_handgun.png',
         { frameWidth: 66, frameHeight: 60 }

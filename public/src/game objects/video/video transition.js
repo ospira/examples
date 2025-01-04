@@ -13,7 +13,7 @@ class Example extends Phaser.Scene
 
     preload ()
     {
-        this.load.setBaseURL('https://cdn.phaserfiles.com/v385');
+        this.load.setBaseURL('http://127.0.0.1:8080/v385');
         this.load.video('fireworks', 'assets/video/fireworks.mp4', true);
         this.load.video('transition', 'assets/video/colorful-smoke-transition.webm', true);
         this.load.glsl('bundle', 'assets/shaders/bundle4.glsl.js');

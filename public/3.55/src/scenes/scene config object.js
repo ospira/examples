@@ -21,7 +21,7 @@ var game = new Phaser.Game(gameConfig);
 
 function preload ()
 {
-        this.load.setBaseURL('https://cdn.phaserfiles.com/v355');
+        this.load.setBaseURL('http://127.0.0.1:8080/v355');
     this.load.image('face', 'assets/pics/bw-face.png');
 }
 

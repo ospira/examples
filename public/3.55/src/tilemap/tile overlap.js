@@ -22,7 +22,7 @@ var cursors;
 
 function preload ()
 {
-        this.load.setBaseURL('https://cdn.phaserfiles.com/v355');
+        this.load.setBaseURL('http://127.0.0.1:8080/v355');
     this.load.tilemapTiledJSON('map', 'assets/tilemaps/maps/tile_properties.json');
     this.load.image('tiles', 'assets/tilemaps/tiles/gridtiles.png');
     this.load.image('ball', 'assets/sprites/orb-blue.png');

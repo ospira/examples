@@ -7,7 +7,7 @@ class Example extends Phaser.Scene
 
     preload ()
     {
-        this.load.setBaseURL('https://cdn.phaserfiles.com/v355');
+        this.load.setBaseURL('http://127.0.0.1:8080/v355');
         this.load.atlas('fontatlas', 'assets/atlas/bitmap-fonts-debug.png', 'assets/atlas/bitmap-fonts.json');
 
         //  The XML data for the fonts in the atlas

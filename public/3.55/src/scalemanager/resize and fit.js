@@ -11,7 +11,7 @@ class BackgroundScene extends Phaser.Scene
 
     preload ()
     {
-        this.load.setBaseURL('https://cdn.phaserfiles.com/v355');
+        this.load.setBaseURL('http://127.0.0.1:8080/v355');
         this.load.image('logo', 'assets/sprites/phaser3-logo-x2.png');
         this.load.image('fakegame', 'assets/pics/ninja-masters2.png');
     }
